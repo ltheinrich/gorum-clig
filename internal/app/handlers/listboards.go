@@ -32,5 +32,6 @@ func ListBoards() (err error) {
 		fmt.Printf("ID: %v - Name: %v - Description: %v - Icon: %v - Category: %v (%v) - Sort: %v\n", id, name, description, icon, category, categoryname, sort)
 	}
 
+	// return
 	return nil
 }

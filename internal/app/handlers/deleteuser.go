@@ -20,7 +20,7 @@ func DeleteUser() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Users deleted")
-
 	return nil
 }

@@ -12,21 +12,34 @@ var (
 		"cc": CreateCategory,
 		"db": DeleteBoard,
 		"dc": DeleteCategory,
-		"du": DeleteUser,
 		"dp": DeletePost,
 		"dt": DeleteThread,
+		"du": DeleteUser,
+		"eb": EditBoard,
+		"ec": EditCategory,
+		"ep": EditPost,
+		"et": EditThread,
+		"eu": EditUser,
 		"lb": ListBoards,
 		"lc": ListCategories,
-		"lu": ListUsers,
 		"lp": ListPosts,
 		"lt": ListThreads,
+		"lu": ListUsers,
 	}
 
-	// variables
-	id          = flag.Int("id", -1, "ID (Board, Category, User, Post)")
-	name        = flag.String("name", "", "Name (Board, Category)")
-	description = flag.String("description", "", "Board description")
-	icon        = flag.String("icon", "forum", "Board icon")
-	sort        = flag.Int("sort", -1, "Sort ID (Board, Category)")
-	category    = flag.Int("category", -1, "Board category")
+	// int variables
+	id       = flag.Int("id", -1, "ID (Board, Category, User, Post)")
+	sort     = flag.Int("sort", -1, "Sort ID (Board, Category)")
+	board    = flag.Int("board", -1, "Board ID (Thread)")
+	thread   = flag.Int("thread", -1, "Thread ID (Post)")
+	author   = flag.Int("author", -1, "Author ID (Post, Thread)")
+	created  = flag.Int("created", -1, "Created Timestamp (Post, Thread)")
+	category = flag.Int("category", -1, "Category ID (Board)")
+
+	// string variables
+	icon        = flag.String("icon", "forum", "Icon (Board)")
+	description = flag.String("description", "", "Description (Board)")
+	password    = flag.String("password", "", "Password (User)")
+	content     = flag.String("content", "", "Content (Post, Thread)")
+	name        = flag.String("name", "", "Name (Board, Category, Thread)")
 )

@@ -38,5 +38,6 @@ func ListUsers() (err error) {
 		fmt.Printf("ID: %v - Username: %v - Registered: %v\n", id, username, date.Format("02.01.2006 at 15:04:05"))
 	}
 
+	// return
 	return nil
 }

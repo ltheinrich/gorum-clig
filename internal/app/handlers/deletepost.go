@@ -20,7 +20,7 @@ func DeletePost() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Post deleted")
-
 	return nil
 }

@@ -20,7 +20,7 @@ func DeleteThread() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Thread deleted")
-
 	return nil
 }

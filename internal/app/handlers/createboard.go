@@ -21,7 +21,7 @@ func CreateBoard() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Board created")
-
 	return nil
 }

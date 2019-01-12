@@ -34,5 +34,6 @@ func ListThreads() (err error) {
 			id, name, board, author, username, time.Unix(created, 0).Format("02.01.2006 at 15:04:05"), content)
 	}
 
+	// return
 	return nil
 }

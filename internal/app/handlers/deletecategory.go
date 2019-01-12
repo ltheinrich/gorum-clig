@@ -20,7 +20,7 @@ func DeleteCategory() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Category deleted")
-
 	return nil
 }

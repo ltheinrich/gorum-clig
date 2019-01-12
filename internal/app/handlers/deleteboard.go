@@ -20,7 +20,7 @@ func DeleteBoard() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Board deleted")
-
 	return nil
 }

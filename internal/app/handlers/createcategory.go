@@ -21,7 +21,7 @@ func CreateCategory() (err error) {
 		return err
 	}
 
+	// print success and return
 	fmt.Println("Category created")
-
 	return nil
 }

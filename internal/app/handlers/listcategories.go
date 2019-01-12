@@ -30,5 +30,6 @@ func ListCategories() (err error) {
 		fmt.Printf("ID: %v - Name: %v - Sort: %v\n", id, categoryname, sort)
 	}
 
+	// return
 	return nil
 }
