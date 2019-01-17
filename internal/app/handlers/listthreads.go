@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltheinrich/clig/pkg/db"
+	"github.com/ltheinrich/clig/internal/pkg/db"
 )
 
 // ListThreads handler

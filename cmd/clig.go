@@ -5,7 +5,7 @@ import (
 	"flag"
 
 	"github.com/ltheinrich/clig/internal/app/handlers"
-	"github.com/ltheinrich/clig/pkg/db"
+	"github.com/ltheinrich/clig/internal/pkg/db"
 )
 
 var (

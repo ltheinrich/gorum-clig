@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ltheinrich/clig/pkg/crypter"
-	"github.com/ltheinrich/clig/pkg/db"
+	"github.com/ltheinrich/clig/internal/pkg/crypter"
+	"github.com/ltheinrich/clig/internal/pkg/db"
 	"golang.org/x/crypto/bcrypt"
 )
 
