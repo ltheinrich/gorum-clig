@@ -1,7 +1,7 @@
-# github.com/lib/pq v1.0.1-0.20181016162627-9eb73efc1fcc
+# github.com/lib/pq v1.0.0
 github.com/lib/pq
 github.com/lib/pq/oid
-# golang.org/x/crypto v0.0.0-20190131182504-b8fe1690c613
+# golang.org/x/crypto v0.0.0-20190219172222-a4c6cb3142f2
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/sha3
 golang.org/x/crypto/blowfish
