@@ -19,6 +19,7 @@ var (
 
 	// Actions to handle
 	Actions = map[string]*bool{
+		"v":  flag.Bool("v", false, "Get version"),
 		"cb": flag.Bool("cb", false, "Create a new board"),
 		"cc": flag.Bool("cc", false, "Create a new category"),
 		"db": flag.Bool("db", false, "Delete a board"),

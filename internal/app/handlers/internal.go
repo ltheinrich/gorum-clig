@@ -8,6 +8,7 @@ type Handler func() (err error)
 var (
 	// HandlersMap name -> handler
 	HandlersMap = map[string]Handler{
+		"v":  VersionHandler,
 		"cb": CreateBoard,
 		"cc": CreateCategory,
 		"db": DeleteBoard,
