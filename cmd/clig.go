@@ -4,8 +4,8 @@ import (
 	"errors"
 	"flag"
 
-	"github.com/ltheinrich/clig/internal/app/handlers"
-	"github.com/ltheinrich/clig/internal/pkg/db"
+	"github.com/NathanNr/gorum-clig/internal/app/handlers"
+	"github.com/NathanNr/gorum-clig/internal/pkg/db"
 )
 
 var (

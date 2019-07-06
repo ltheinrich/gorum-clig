@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltheinrich/clig/internal/pkg/db"
+	"github.com/NathanNr/gorum-clig/internal/pkg/db"
 )
 
 // ListUsers handler

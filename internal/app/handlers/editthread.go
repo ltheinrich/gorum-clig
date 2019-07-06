@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ltheinrich/clig/internal/pkg/db"
+	"github.com/NathanNr/gorum-clig/internal/pkg/db"
 )
 
 // EditThread handler

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/ltheinrich/clig/internal/pkg/db"
+	"github.com/NathanNr/gorum-clig/internal/pkg/db"
 )
 
 // ListBoards handler
