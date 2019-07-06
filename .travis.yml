@@ -5,6 +5,5 @@ go:
 - 1.12.x
 
 script:
-  - go vet -v ./...
-  - go test -v -race ./...
+  - make test
   - make buildgo
