@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/NathanNr/gorum-clig.svg?branch=master)](https://travis-ci.com/NathanNr/gorum-clig)
+[![Build Status](https://travis-ci.com/ltheinrich/gorum-clig.svg?branch=master)](https://travis-ci.com/ltheinrich/gorum-clig)
 [![Discord](https://img.shields.io/discord/488792767657410560.svg)](https://discord.gg/jjRruxx)
 
 # clig

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/NathanNr/gorum-clig/internal/pkg/db"
+	"github.com/ltheinrich/gorum-clig/internal/pkg/db"
 )
 
 // EditCategory handler
