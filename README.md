@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.com/ltheinrich/gorum-clig.svg?branch=master)](https://travis-ci.com/ltheinrich/gorum-clig)
-[![Discord](https://img.shields.io/discord/488792767657410560.svg)](https://discord.gg/jjRruxx)
+[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 
 # clig
 Command-line interface for Gorum
