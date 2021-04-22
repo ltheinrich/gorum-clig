@@ -1,4 +1,4 @@
-# github.com/lib/pq v1.10.0
+# github.com/lib/pq v1.10.1
 ## explicit
 github.com/lib/pq
 github.com/lib/pq/oid
