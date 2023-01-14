@@ -11,6 +11,9 @@ GO_FILES=./...
 .PHONY: build
 build: clean fmt test buildgo sign
 
+.PHONY: build1
+build1: clean buildgo
+
 .PHONY: install
 install: ${BINARY}
 	cp ${BINARY} ${INSTALL_DIR}
