@@ -4,5 +4,5 @@ go 1.15
 
 require (
 	github.com/lib/pq v1.10.7
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.8.0
 )
