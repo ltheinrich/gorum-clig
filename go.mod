@@ -6,7 +6,7 @@ toolchain go1.24.6
 
 require (
 	github.com/lib/pq v1.10.9
-	golang.org/x/crypto v0.44.0
+	golang.org/x/crypto v0.45.0
 )
 
 require golang.org/x/sys v0.38.0 // indirect
