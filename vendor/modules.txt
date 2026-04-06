@@ -1,4 +1,4 @@
-# github.com/lib/pq v1.12.2
+# github.com/lib/pq v1.12.3
 ## explicit; go 1.21
 github.com/lib/pq
 github.com/lib/pq/internal/pgpass
